@@ -296,6 +296,8 @@ function addishot() {
 			&nbsp;&nbsp;|&nbsp;&nbsp;
 			<a href="<%=request.getContextPath()%>/tjingcaiMatches/saveEventsUI">Ìí¼Ó¼ò³Æ</a>
 			</td></tr>
+			
+			<a href="#">shanchu shanchu </a>
 		</tbody>
 	</table>
 </body>
