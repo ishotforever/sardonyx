@@ -12,6 +12,9 @@ public class Gittest {
 		for (String list : lists) {
 			System.out.println(list);
 		}
+		if (searchNumber()) {
+			System.out.println("list中有10018");
+		}
 		
 	}
 public static List<String> addlist(){
@@ -21,5 +24,18 @@ public static List<String> addlist(){
 		 list.add(i, "100"+i);	
 	}
 	return list;
+}
+
+public static boolean searchNumber(){
+	boolean realut = false;
+	List<String> lists = Gittest.addlist();
+	for (String list : lists) {
+		if (list.equals("10018")) {
+			realut = true;
+		}
+	}
+	
+	
+	return realut;
 }
 }
